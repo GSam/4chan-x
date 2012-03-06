@@ -1432,12 +1432,12 @@ qr =
   <span> <a class=close title=Close>&times;</a></span>
 </div>
 <form>
-  <div><input id=dump class=field type=button title="Dump list" value=+><input name=name title=Name placeholder=Name class=field size=1><input name=email title=E-mail placeholder=E-mail class=field size=1><input name=sub title=Subject placeholder=Subject class=field size=1></div>
+  <div><input id=dump class=field type=button title="Dump list" value=+><input name=name title=Name placeholder=Name class=field size=1 tabindex=0><input name=email title=E-mail placeholder=E-mail class=field size=1 tabindex=1><input name=sub title=Subject placeholder=Subject class=field size=1 tabindex=2></div>
   <div id=replies><div><a id=addReply href=javascript:; title="Add a reply">+</a></div></div>
-  <div><textarea name=com title=Comment placeholder=Comment class=field></textarea></div>
+  <div><textarea name=com title=Comment placeholder=Comment class=field tabindex=3></textarea></div>
   <div class=captcha title=Reload><img></div>
-  <div><input title=Verification class=field autocomplete=off size=1></div>
-  <div><input type=file multiple size=16><input type=submit></div>
+  <div><input title=Verification class=field autocomplete=off size=1 tabindex=4></div>
+  <div><input type=file multiple size=16 tabindex=5><input type=submit tabindex=6></div>
   <label id=spoilerLabel><input type=checkbox id=spoiler> Spoiler Image</label>
   <div class=warning></div>
 </form>'
